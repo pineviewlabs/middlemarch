@@ -24,4 +24,4 @@ jobs:
       - name: Start vite preview
         run: npm run preview & 
       - name: Run Nightwatch tests
-        run: npm test
+        run: npm test -- --verbose
