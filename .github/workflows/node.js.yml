@@ -19,4 +19,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run dev & npm run preview & npm test
+      - name: Start vite dev server
+        run: npm run dev & 
+      - name: Start vite preview
+        run: npm run preview & 
+      - name: Run Nightwatch tests
+        run: npm test
