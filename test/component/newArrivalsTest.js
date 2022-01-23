@@ -3,15 +3,6 @@ describe('New Arrivals Component Test', function() {
   let component;
 
   before(async () => {
-
-  });
-
-  it('tests the component', async function(browser) {
-    //console.log('>>>>> component', component);
-
-    // const newArrivalsValue = await component.getProperty('newArrivals');
-    // console.log('newArrivals', newArrivalsValue)
-
     component = await browser.mountVueComponent('/src/components/new-arrivals/NewArrivals.vue', {
       plugins: {
         store: '/src/lib/store.js',
@@ -38,6 +29,13 @@ describe('New Arrivals Component Test', function() {
         }
       }
     })
+  });
+
+  it('tests the component', function(browser) {
+    //console.log('>>>>> component', component);
+
+    // const newArrivalsValue = await component.getProperty('newArrivals');
+    // console.log('newArrivals', newArrivalsValue)
 
     expect.element(component).to.be.present;
 
