@@ -1,6 +1,7 @@
 {
   "name": "vue-bookstore",
   "version": "0.0.0",
+  "author": "George Eliot",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
