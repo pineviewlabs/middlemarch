@@ -21,7 +21,5 @@ jobs:
       - run: npm ci
       - name: Start vite dev server
         run: npm run dev & 
-      - name: Start vite preview
-        run: npm run preview & 
       - name: Run Nightwatch tests
-        run: npm test -- --verbose
+        run: npm test
