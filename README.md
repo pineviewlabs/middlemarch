@@ -1,5 +1,5 @@
 # Middlemarch
-[![Node.js CI](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/nightwatchjs/nightwatch/actions/workflows/build-node.yaml)
+[![Node.js CI](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/beatfactor/middlemarch/actions/workflows/node.js.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/16d2bbe4-6931-4e83-9fe5-6fd6e1688f2d/deploy-status)](https://app.netlify.com/sites/middlemarch/deploys)
 
 Sample bookstore single page application built with Vue 3 + Pinia and running on Vite. Routing is implementated with Vue Router. 
