@@ -1,0 +1,81 @@
+<div class="wrapper">
+  <TopNavbar />
+
+  <div id="top-section" class="top-text">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center">
+        <div class="col-12"><h1>Middlemarch</h1></div>
+        <div class="col-12"><p>Your nightly bookstore</p></div>
+      </div>
+
+      <div class="d-flex flex-wrap align-items-center">
+        <div class="col-md-2 col-lg-3 col-1"></div>
+        <div class="col-md-8 col-lg-6 col-sm-10 col-10">
+
+          <form class="col-12">
+            <input autofocus type="search" class="form-control form-control-dark" placeholder="Search books..." aria-label="Search">
+            <button type="submit" class="submit"><img src="/images-cloud/search.svg" alt="Search"></button>
+          </form>
+        </div>
+        <div class="col-md-2 col-lg-3 col-1"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax__layer parallax__layer--3">
+    <div id="stars" class="top-stars">&nbsp;</div>
+  </div>
+  <div class="parallax__layer parallax__layer--2"></div>
+
+  <div class="parallax__layer parallax__layer--2"><div id="clouds" class="top-clouds">&nbsp;</div></div>
+
+  <div class="parallax__layer parallax__layer--2" style="z-index: 1000"></div>
+
+  <div class="parallax__layer parallax__layer--1"></div>
+
+  <div class="parallax__layer parallax__layer--0" style="z-index: 1000">
+    <div class="top-trees">&nbsp;</div>
+
+    <div class="container-fluid" id="main-panel">
+      <NewArrivals />
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <a href="https://bookshop.org"><img src="http://web.archive.org/web/20220115182749im_/https://images-production.bookshop.org/spree/promo_banner_slides/desktop_images/168/original/Revol_Bookshop_heroboard_banner_%282%29.jpg?1641830183" alt="Go to Bookshop.org"/></a>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="container">
+            <img src="http://web.archive.org/web/20220105083249im_/https://images-production.bookshop.org/spree/promo_banner_slides/desktop_images/168/original/LastNightTelegraph_Desktop_2048x600_285942.jpg?1641224116" alt="Go to Bookshop.org"/>
+            <a href="https://bookshop.org/">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <Footer />
+
+  </div>
+
+</div>
