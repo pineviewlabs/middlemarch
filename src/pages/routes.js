@@ -1,6 +1,6 @@
 import {createRouter} from 'vue-router'
 import Homepage from './home/Home.vue';
-import SignIn from './sign-in/SignIn.vue';
+import {SignInComponent} from './user';
 import Cart from './cart/Cart.vue';
 
 const routes = [
@@ -11,7 +11,7 @@ const routes = [
 
   {
     path: '/sign-in/',
-    component: SignIn
+    component: SignInComponent
   },
 
   {

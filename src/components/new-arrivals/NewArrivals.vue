@@ -1,6 +1,8 @@
 <script setup>
 import {useCatalog} from '/src/store/catalog.js'
+import {useCart} from '/src/store/cart.js'
 const store = useCatalog()
+const cart = useCart()
 </script>
 
 <template src="./new-arrivals.html"></template>
@@ -29,9 +31,9 @@ export default {
       'fetchNewArrivals'
     ]),
 
-    addToCart() {
-
-    }
+    ...mapActions(useCart, [
+      'addToCart'
+    ])
   },
 
   created() {
