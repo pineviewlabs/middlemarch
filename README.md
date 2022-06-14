@@ -6,6 +6,10 @@ Sample bookstore single page application built with Vue 3 + Pinia and running on
 
 Component testing and End-to-end testing written in Nightwatch.js
 
+Full tutorial with step-by-step instructions available at:
+
+[labs.pineview.io/learn-how-to-build-test-and-deploy-a-single-page-app-with-vue-3-vite-and-pinia/](https://labs.pineview.io/learn-how-to-build-test-and-deploy-a-single-page-app-with-vue-3-vite-and-pinia/)
+
 ### Preview
 This project is automatically deployed to Netlify at the url:
 
