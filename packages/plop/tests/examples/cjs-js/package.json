@@ -1,0 +1,7 @@
+{
+  "name": "plop-example-prompts-only",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  }
+}

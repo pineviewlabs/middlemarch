@@ -1,0 +1,7 @@
+{
+  "name": "plop-example-action-failure",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
